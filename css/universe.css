@@ -1,0 +1,1413 @@
+:root {
+    --whitecolor: rgb(255 255 255);
+    --blackcolor: rgb(0 0 0);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+    background-color: var(--blackcolor);
+    color: var(--whitecolor);
+}
+
+p {
+    text-align: justify;
+}
+
+.bg-img {
+    background-image: url("../images/universe-slider-bg.jpg");
+    min-height: 1000px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    font-size: 1rem;
+    color: gray;
+    padding: 30px 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar img {
+    height: 33px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: var(--whitecolor);
+}
+
+.navbar .active {
+    color: var(--whitecolor);
+}
+
+/* header start*/
+
+
+.centered-text {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-30%, -38%);
+    color: var(--whitecolor);
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.row-side1 {
+    flex: 10%;
+}
+
+.row-side3 {
+    flex: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.row-side3>img {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    margin: 339px 0px 0px 120px;
+}
+
+.row-side2 {
+    flex: 40%;
+    color: white;
+}
+
+
+.row-side2>p {
+    z-index: 4;
+    margin: 460px 0px 0px 80px;
+}
+
+.row-side4 {
+    flex: 10%;
+}
+
+/* row1 start*/
+.row1-bg {
+    background-image: url("../images/universe-planets-sunbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--whitecolor);
+    padding-top: 5%;
+}
+
+.row1-side1 {
+    flex: 10%;
+}
+
+.row1-side3 {
+    flex: 40%;
+
+}
+
+.row1-side2 {
+    flex: 40%;
+}
+
+.row1-side2>h1 {
+    font-size: 2rem;
+    text-shadow: 2px 1px hwb(0 71% 27% / 0.8);
+}
+
+.row1-side4 {
+    flex: 10%;
+}
+
+/*row1 end*/
+
+/* row 2 start*/
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2-side1 {
+    flex: 15%;
+}
+
+.row2-side2 {
+    flex: 80%;
+}
+
+.row2-side2 {
+    margin-top: 10%;
+}
+
+.row2-side3 {
+    flex: 5%;
+}
+
+.row2-side2>img {
+    width: 100%;
+}
+
+/* row 2 end*/
+
+/* row3 start*/
+.row3 {
+    color: var(--whitecolor);
+    display: flex;
+    margin-top: 10%;
+}
+
+.row3-side1 {
+    flex: 10%;
+}
+
+.row3-side2 {
+    flex: 40%;
+}
+
+.row3-side2>h1 {
+    font-size: 2rem;
+    text-shadow: 2px 1px hwb(0 71% 27% / 0.8);
+}
+
+.row3-side3 {
+    flex: 40%;
+}
+
+.row3-side3>ul {
+    text-align: justify;
+}
+
+.row3-side4 {
+    flex: 10%;
+}
+
+/* row3 end*/
+/*mercury start*/
+.mercury-bg {
+    background-image: url("../images/mercury.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    /* transform: translate(-5%, 30%); */
+
+}
+
+.row4 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row4-side1 {
+    flex: 10%;
+}
+
+.row4-side2 {
+    flex: 80%;
+}
+
+.row4-side2>h1 {
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row4-side3 {
+    flex: 10%;
+}
+
+.row5 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row5-side1 {
+    flex: 10%;
+}
+
+.row5-side2 {
+    flex: 20%;
+}
+
+.row5-side3 {
+    flex: 20%;
+}
+
+.row5-side4 {
+    flex: 50%;
+}
+
+.bluecolor {
+    color: skyblue;
+    font-size: 2rem;
+}
+
+.row6 {
+    color: var(--whitecolor);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #17171b;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.row6-side1 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.row6-side2 {
+    flex: 16%;
+}
+
+.row6-side3 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.row6-side4 {
+    flex: 16%;
+}
+
+.row6-side5 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+
+.row6-side6 {
+    flex: 16%;
+}
+
+.row6-side7 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+
+.row6-side8 {
+    flex: 16%;
+}
+
+.row6-side1>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+.row6-side3>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+.row6-side5>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+
+.row6-side7>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+/*mercury end*/
+
+/* Venus start*/
+.venus-bg {
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.venus-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row7 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row7-side1 {
+    flex: 5%;
+}
+
+.row7-side2 {
+    flex: 40%;
+}
+
+.row7-side2>img {
+    /* transform-origin: 129% -25%; */
+    max-width: 100%;
+    height: auto;
+}
+
+.row7-center {
+    flex: 10%;
+}
+
+.row7-side3 {
+    flex: 40%;
+}
+
+.row7-side4 {
+    flex: 5%;
+}
+
+/* Venus end*/
+
+/*Earth start*/
+/* .Earth-bg {
+    background-image: url("../images/universe-earth-globe.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+} */
+
+.Earth-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row8 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row8-side1 {
+    flex: 10%;
+
+}
+
+.row8-side2 {
+    flex: 35%;
+    padding: 8%;
+    box-shadow: 2px 2px 12px #aaaaaa;
+    border-radius: 5%;
+}
+
+.row8-center {
+    flex: 10%;
+}
+
+.row8-side3 {
+    flex: 35%;
+}
+
+.row8-side4 {
+    flex: 10%;
+}
+
+.row8-side2>h1,
+.row8-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+
+.row9 {
+    color: var(--whitecolor);
+    display: flex;
+    z-index: 1;
+}
+
+.row9-side1 {
+    flex: 15%;
+
+}
+
+.row9-side2 {
+    flex: 30%;
+    padding-top: 8%;
+}
+
+.row9-center {
+    flex: 10%;
+}
+
+.row9-side3 {
+    flex: 30%;
+    z-index: 1;
+    position: relative;
+}
+
+.row9-side3>img {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    margin: -37% 0% 0% -52%;
+}
+
+.row9-side4 {
+    flex: 15%;
+}
+
+
+.list {
+    position: relative;
+}
+
+.list h2 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.list ul {
+    position: relative;
+}
+
+.list ul li {
+    position: relative;
+    left: 0;
+    color: #fce4ec;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #aaaaaa;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list ul li:hover {
+    left: 10px;
+}
+
+.list ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.list ul li:hover span {
+    color: #111;
+}
+
+.list ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #aaaaaa;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.list ul li:hover:before {
+    transform: scaleX(1);
+}
+
+/* Earth end*/
+/* mars start*/
+.Mars-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* mars end*/
+
+/* Jupiter start*/
+.Jupiter-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row10 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row10-side1 {
+    flex: 5%;
+
+}
+
+.row10-side2 {
+    flex: 40%;
+}
+
+.row10-side2>img {
+    width: 100%;
+    height: auto;
+}
+
+.row10-center {
+    flex: 10%;
+}
+
+.row10-side3 {
+    flex: 40%;
+}
+
+.row10-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row10-side4 {
+    flex: 5%;
+}
+
+/* Jupiter end*/
+/*Saturn start*/
+.Saturn-bg {
+    background-image: url("../images/saturn-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.row11 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row11-side1 {
+    flex: 10%;
+}
+
+.row11-side2 {
+    flex: 80%;
+}
+
+.row11-side2>h1 {
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row11-side3 {
+    flex: 10%;
+}
+
+.row12 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row12-side1 {
+    flex: 10%;
+}
+
+.row12-side2 {
+    flex: 20%;
+}
+
+.row12-side3 {
+    flex: 20%;
+}
+
+.row12-side4 {
+    flex: 50%;
+}
+
+/*Saturn end*/
+
+/* Uranus start*/
+.Uranus-bg {
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.Uranus-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row13 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row13-side1 {
+    flex: 5%;
+}
+
+.row13-side2 {
+    flex: 40%;
+}
+
+.row13-side2>img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.row13-center {
+    flex: 10%;
+}
+
+.row13-side3 {
+    flex: 40%;
+}
+
+.row13-side4 {
+    flex: 5%;
+}
+
+/* Uranus end*/
+/*Neptune start*/
+.Neptune-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row14 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row14-side1 {
+    flex: 10%;
+
+}
+
+.row14-side2 {
+    flex: 35%;
+    padding: 8%;
+    box-shadow: 2px 2px 12px #aaaaaa;
+    border-radius: 5%;
+}
+
+.row14-side2>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row14-center {
+    flex: 10%;
+}
+
+.row14-side3 {
+    flex: 35%;
+}
+
+.row14-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row14-side4 {
+    flex: 10%;
+}
+
+
+.row15 {
+    color: var(--whitecolor);
+    display: flex;
+    z-index: 1;
+}
+
+.row15-side1 {
+    flex: 15%;
+
+}
+
+.row15-side2 {
+    flex: 30%;
+    padding-top: 8%;
+}
+
+.row15-side2>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row15-center {
+    flex: 10%;
+}
+
+.row15-side3 {
+    flex: 30%;
+    z-index: 1;
+    position: relative;
+}
+
+.row15-side3>img {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+
+    margin: -46% 0% 0% -67%;
+}
+
+.row15-side4 {
+    flex: 15%;
+}
+
+
+/* Neptune end*/
+
+/* Jupiter start*/
+.Pluto-bg {
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.Pluto-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row16 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row16-side1 {
+    flex: 5%;
+
+}
+
+.row16-side2 {
+    flex: 40%;
+}
+
+.row16-side2>img {
+    width: 100%;
+    height: auto;
+}
+
+.row16-center {
+    flex: 10%;
+}
+
+.row16-side3 {
+    flex: 40%;
+}
+
+ol>li {
+    margin-left: 5%;
+}
+
+.row16-side4 {
+    flex: 5%;
+}
+
+/* Jupiter end*/
+
+
+
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 575px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-side3 {
+        position: relative;
+        z-index: 0;
+    }
+
+    .row-side2>p {
+        text-align: justify;
+        margin: 460px 50px 0px 50px;
+    }
+
+    .row-side3>img {
+        position: relative;
+        z-index: 0;
+        margin-top: 10%;
+        margin-left: auto;
+        width: 50%;
+        margin: 53px 0px 0px 30px !important
+    }
+
+    .row1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row1-side3>p {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .row3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row3-side3>ul {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .mercury-bg {
+        background-image: url();
+    }
+
+    .row4-side2 {
+        text-align: justify;
+    }
+
+    .row4-side2>h1 {
+        padding: 0% 0% 0% 18%;
+    }
+
+    .row5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row6 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row6-side1,
+    .row6-side2,
+    .row6-side3,
+    .row6-side4,
+    .row6-side5,
+    .row6-side6,
+    .row6-side7,
+    .row6-side8 {
+        padding-bottom: 2%;
+    }
+
+    .row7 {
+        flex-direction: column;
+    }
+
+    .row7-side2>img {
+        padding-right: 15%;
+    }
+
+    .row7-side3>p {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .row8 {
+        flex-direction: column;
+    }
+
+    .row8-side2 {
+        margin: 0% 5% 0 5%;
+    }
+
+    .row8-side3 {
+        margin: 9% 5% 0 8%;
+    }
+
+    .row9 {
+        flex-direction: column;
+    }
+
+    .row9-side3>img {
+        position: relative;
+        z-index: 0;
+        margin: 0;
+        padding: 0 5% 0% 5%;
+    }
+
+    .list>h2 {
+        text-align: center;
+    }
+
+    .list ul {
+        margin-right: 10%;
+    }
+
+    .row10 {
+        flex-direction: column;
+    }
+
+    .responsive {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row10-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row10-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row10-side3>p {
+        padding: 0 5% 0 5%;
+        text-align: justify;
+    }
+
+    .Saturn-bg {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .row11 {
+        flex-direction: column;
+        padding-top: 11%;
+    }
+
+    .row11-side2>h1 {
+        text-align: center;
+    }
+
+    .row11-side2>h2 {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row12 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row13 {
+        flex-direction: column;
+    }
+
+    .row13-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row13-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row13-side3>p {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row14 {
+        flex-direction: column;
+    }
+
+    .row14-side2 {
+        margin: 0% 5% 0 5%;
+    }
+
+    .row14-side3 {
+        margin: 9% 5% 0 8%;
+    }
+
+    .row15 {
+        flex-direction: column;
+    }
+
+    .row15-side3>img {
+        position: relative;
+        z-index: 0;
+        margin: 0;
+        padding: 0 5% 0% 5%;
+    }
+
+    .row15-side2>h1,
+    p {
+        text-align: center;
+    }
+
+    .row16 {
+        flex-direction: column;
+    }
+
+    .row16-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row16-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row16-side3>p {
+        padding: 0 5% 0 5%;
+        text-align: justify;
+    }
+
+    .row16-side3>ol {
+        padding: 0 5% 0 5%;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .row-side2 {
+        position: relative;
+        z-index: 0;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-side3>img {
+        position: relative;
+        z-index: 0;
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .row-side2>p {
+        margin: 460px 50px 0px 50px;
+    }
+
+    .row3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row3-side3>ul {
+        padding: 0% 10% 0% 10%;
+    }
+
+    .mercury-bg {
+        background-size: contain;
+    }
+
+    .row5-side1 {
+        flex: 10%;
+    }
+
+    .row5-side2 {
+        flex: 40%;
+    }
+
+    .row5-side3 {
+        flex: 40%;
+    }
+
+    .row5-side4 {
+        flex: 10%;
+    }
+
+    .row6 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mercury-bg+h3 {
+        text-align: center;
+    }
+
+    .row6-side1,
+    .row6-side2,
+    .row6-side3,
+    .row6-side4,
+    .row6-side5,
+    .row6-side6,
+    .row6-side7,
+    .row6-side8 {
+        padding-bottom: 2%;
+    }
+
+    .row7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row7-side2>img {
+        padding-right: 22%;
+    }
+
+    .row7-side3>p {
+        padding: 0% 10% 0% 10%;
+    }
+
+    .Saturn-bg {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .row11 {
+        flex-direction: column;
+        padding-top: 20%;
+    }
+
+    .row11-side2>h1 {
+        text-align: center;
+    }
+
+    .row11-side2>h2 {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row12-side1 {
+        flex: 10%;
+    }
+
+    .row12-side2 {
+        flex: 40%;
+    }
+
+    .row12-side3 {
+        flex: 40%;
+    }
+
+    .row12-side4 {
+        flex: 10%;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .centered-text {
+        font-size: 4vmin;
+    }
+
+    .row-side2>p {
+        margin: 460px 0px 0px 20px;
+    }
+
+    .row-side3>img {
+        margin: 460px 0px 0px 40px !important;
+    }
+
+    .row1-side1 {
+        flex: 0%;
+    }
+
+    .row1-side2 {
+        flex: 50%;
+    }
+
+    .row1-side2>h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+
+    .row1-side3 {
+        flex: 50%;
+    }
+
+    .row1-side3>p {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .row1-side4 {
+        flex: 0%;
+    }
+
+    .mercury-bg {
+        background-size: contain;
+    }
+
+    .row6-side1 {
+        flex: 25%;
+    }
+
+    .row6-side2 {
+        flex: 25%;
+    }
+
+    .row6-side3 {
+        flex: 25%;
+    }
+
+    .row6-side4 {
+        flex: 25%;
+    }
+
+    .row6-side5 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side6 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side7 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side8 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .Saturn-bg {
+        background-size: contain;
+    }
+
+    .row12-side1 {
+        flex: 10%;
+    }
+
+    .row12-side2 {
+        flex: 40%;
+    }
+
+    .row12-side3 {
+        flex: 40%;
+    }
+
+    .row12-side4 {
+        flex: 10%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+
+    .row-side3>img {
+        margin: 457px 0px 0px 100px;
+    }
+
+
+    .centered-text {
+        font-size: 1rem;
+        top: 10%;
+    }
+}
