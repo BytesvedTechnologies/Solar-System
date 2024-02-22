@@ -9,7 +9,10 @@ NASA leads the nation on a great journey of discovery, seeking new knowledge and
 
 ## Demo
 
-https://www.awesomescreenshot.com/video/25178608?key=b2a6553dff9c43ff6420d6079f00e565
+
+https://github.com/BytesvedTechnologies/Solar-System/assets/155969461/9ed71bd6-77dd-4266-82d0-e57693560190
+
+
 
 ## List of Topics
 - Solar System Overview 
